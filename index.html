@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick Zhang's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="market-data-animation">
+        <div class="ticker-tape"></div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <span class="logo-text">N<span class="accent">.</span>Zhang</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact" class="contact-btn">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Nick Zhang</h1>
+                    <h2>Computer Engineer & Software Developer</h2>
+                    <p class="hero-bio">Nick Zhang is a highly skilled computer engineer with a strong foundation in software development and a proven track record in developing complex systems. He has expertise in full stack development, deep learning, and real-time communication systems, demonstrated through successful projects and competition achievements.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn primary">Get in Touch</a>
+                        <a href="#experience" class="btn secondary">View Experience</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <img src="profile/2.svg" alt="Nick Zhang" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About</span>
+                <h2>Professional Profile</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Nick Zhang is a highly skilled computer engineer with a strong foundation in software development and a proven track record in developing complex systems. He has expertise in full stack development, deep learning, and real-time communication systems, demonstrated through successful projects and competition achievements.</p>
+                </div>
+                <div class="about-cards">
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="card-text">
+                            <h3>Contact</h3>
+                            <p>jz7074@nyu.edu</p>
+                            <p>+1-917-231-5580</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="card-text">
+                            <h3>Social Links</h3>
+                            <div id="social-links-container">
+                                <p><a href="https://www.linkedin.com/in/nick-zhangjiayi/" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/nick-zhangjiayi/</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Education</span>
+                <h2>Academic Background</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="education-timeline" id="education-container">
+                <div class="education-item">
+                    <div class="education-dot">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-header">
+                            <h3>Master of Science, Computer Engineering</h3>
+                            <span class="education-date">May 2026</span>
+                        </div>
+                        <div class="education-body">
+                            <p class="institution">New York University</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="education-dot">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-header">
+                            <h3>Bachelor of Engineering, Communication Engineering</h3>
+                            <span class="education-date">Jun. 2024</span>
+                        </div>
+                        <div class="education-body">
+                            <p class="institution">Wuhan University</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Projects</span>
+                <h2>Key Initiatives</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="projects-grid" id="projects-container">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Online Dish Ordering Software</h3>
+                        <p class="project-duration">Jul. 2024</p>
+                        <p class="project-description">Full stack software development based on SpringBoot, featuring management and user sides for businesses and customers, with real-time communication and data caching.</p>
+                        <div class="project-tech">
+                            <span>SpringBoot</span>
+                            <span>JWT</span>
+                            <span>Nginx</span>
+                            <span>AOP</span>
+                            <span>MySQL</span>
+                            <span>Redis</span>
+                            <span>WebSocket</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li>Built a management and user system for dish ordering</li>
+                                <li>Implemented secure user authentication</li>
+                                <li>Enhanced code reusability and reduced coupling</li>
+                                <li>Improved system performance with caching and real-time communication</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Multi-Functional Store Exploration App</h3>
+                        <p class="project-duration">Jan. 2025</p>
+                        <p class="project-description">Developed a face recognition system based on deep learning for a service platform focused on food exploration and lifestyle sharing, with features like login, order placement, and flash sale coupons.</p>
+                        <div class="project-tech">
+                            <span>Deep Learning</span>
+                            <span>Redis</span>
+                            <span>Kafka</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li>Implemented user login and session management</li>
+                                <li>Prevented inventory overselling with optimistic locks</li>
+                                <li>Improved rush purchase performance with Redis and Kafka</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Expertise</span>
+                <h2>Professional Skills</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="skills-grid" id="technical-skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="skill-name">Java</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3 class="skill-name">Python</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 class="skill-name">C</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 92%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 class="skill-name">C#</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 88%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="skill-name">HTML</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-name">CSS</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 82%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="skill-name">Javascript</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 78%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="skill-name">SpringBoot</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="skill-name">Spring MVC</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="skill-name">MyBatis</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="skill-name">Vue</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="awards">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Recognition</span>
+                <h2>Honors & Awards</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="awards-grid" id="awards-container">
+                <div class="award-card">
+                    <div class="award-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="award-content">
+                        <h3>2nd class prize in Texas Instruments National Undergraduate Electronics Design Contest</h3>
+                        <p class="award-date">Nov. 2021</p>
+                        <p class="award-org">Texas Instruments</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="alt-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2>Get In Touch</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p>I'm always interested in discussing new opportunities, investment strategies, or potential collaborations. Feel free to reach out through any of the channels below.</p>
+                </div>
+                <div class="contact-methods">
+                    <a href="mailto:jz7074@nyu.edu" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Email</h3>
+                            <p>jz7074@nyu.edu</p>
+                        </div>
+                    </a>
+                    
+                    <a href="tel:+19172315580" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Phone</h3>
+                            <p>+1-917-231-5580</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/nick-zhangjiayi/" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/nick-zhangjiayi/</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">N<span class="accent">.</span>Zhang</span>
+                </div>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/nick-zhangjiayi/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:jz7074@nyu.edu"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Nick Zhang. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close mobile menu if open
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+        
+        // Ticker tape animation
+        const createTickerTape = () => {
+            const tickerTape = document.querySelector('.ticker-tape');
+            const symbols = ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META', 'TSLA', 'JPM', 'BAC', 'GS', 'MS', 'V', 'MA', 'PYPL', 'BTC', 'ETH'];
+            
+            symbols.forEach(symbol => {
+                const item = document.createElement('div');
+                item.className = 'ticker-item';
+                
+                const change = (Math.random() * 5 - 2).toFixed(2);
+                const isPositive = change > 0;
+                
+                item.innerHTML = `
+                    <span class="ticker-symbol">${symbol}</span>
+                    <span class="ticker-price">$${(Math.random() * 1000 + 50).toFixed(2)}</span>
+                    <span class="ticker-change ${isPositive ? 'positive' : 'negative'}">
+                        ${isPositive ? '+' : ''}${change}%
+                    </span>
+                `;
+                
+                tickerTape.appendChild(item);
+            });
+            
+            // Clone the items for continuous scrolling
+            const items = document.querySelectorAll('.ticker-item');
+            items.forEach(item => {
+                const clone = item.cloneNode(true);
+                tickerTape.appendChild(clone);
+            });
+        };
+        
+        createTickerTape();
+    </script>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
